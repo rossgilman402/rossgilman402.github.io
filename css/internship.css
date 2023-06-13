@@ -1,0 +1,98 @@
+body{
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', 'arial';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Navbar section*/
+.navbar{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 30px;
+    align-items: center;
+}
+
+.navbar-logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem
+}
+
+.navbar-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+/*Summary sections*/
+.internship{
+    align-items: center;
+}
+
+.internship-info{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.internship-info img{
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+    border: 4px solid #1F2937;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.internship-info h2{
+    align-items: center;
+}
+
+.internship-info p{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+    font-size: 20px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+
+/*Contact section*/
+.contact{
+    margin: auto;
+    border: 4px solid #1F2937;
+    border-radius: 15px;
+}
+
+.contact-info img{
+    width: auto;
+    height: 45px;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer{
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    margin-top: 10px;
+}
